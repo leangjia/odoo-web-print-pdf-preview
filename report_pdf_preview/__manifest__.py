@@ -20,7 +20,7 @@
 {
     "name": "Report Pdf Preview",
     "version": "1.0",
-    "depends": ["report"],
+    "depends": ["web"],
     "author": "山西清水欧度信息技术有限公司",
     'website': 'http://www.odooqs.com',
     "category": "web",
@@ -35,7 +35,7 @@
     "qweb": [
         "static/src/xml/*.xml",
     ],
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/icon.jpg','static/description/main_screenshot.png'],
     'installable': True,
     'active': False,
     #    'certificate': '',
