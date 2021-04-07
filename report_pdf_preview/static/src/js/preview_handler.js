@@ -50,7 +50,7 @@ var PDFHandler = BaseHandler.extend({
     createHtml: function(url, mimetype, extension, title) {
     	var result = $.Deferred();	
     	var viewerUrlTempalte = _.template('/report_pdf_preview/static/lib/PDFjs/web/viewer.html?file=<%= url %>');
-		result.resolve($(QWeb.render('ViewerJSFrame', {url: viewerUrlTempalte({url})})));
+    	result.resolve($(QWeb.render('ViewerJSFrame', {url: viewerUrlTempalte({url})})));
 		return result;
 	},    
 });
